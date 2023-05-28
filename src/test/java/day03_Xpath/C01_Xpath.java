@@ -18,7 +18,7 @@ public class C01_Xpath {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
         //https://the-internet.herokuapp.com/add_remove_elements/ adresine gidin
-        driver.get("https://the-internet.herokuapp.com/add_remove_elemnts/");
+        driver.get("https://the-internet.herokuapp.com/add_remove_elements/");
         //Add Element butonuna basin
         Thread.sleep(3000);
         driver.findElement(By.xpath("//*[@onclick='addElement()']")).click();
